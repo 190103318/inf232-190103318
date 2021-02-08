@@ -6,10 +6,16 @@
 
 <?php
 echo "Hello!<br>"; 
-$c = 10;
-echo "Let's count to 10!<hr>";
-for($i = 0; $i < $c; $i++){
-	echo  $i + 1 . "<br>";
+$counter = 1;
+
+while($counter < 11){
+	if($counter == 10){
+		echo "Last is $counter<br>";
+		$counter++;
+	}else{
+		echo "Plus one to $counter<br>";
+        $counter++;
+	}
 }
 ?>
 
