@@ -7,14 +7,13 @@
 <?php
 echo "Hello World!<hr>";
 echo "Coding is fun!<br>"; 
-$hour = date("H");
-
-if ($hour < "10") {
-  echo "Have a good morning!";
-} elseif ($hour < "20") {
-  echo "Have a good day!";
-} else {
-  echo "Have a good night!";
+$d = date("D");
+if($d == "Fri"){
+    echo "Have a nice weekend!";
+} elseif($d == "Sun"){
+    echo "Have a nice Sunday!";
+} else{
+    echo "Have a nice day!";
 }
 ?>
 
