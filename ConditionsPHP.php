@@ -5,6 +5,7 @@
 <h1>My first PHP code in GitHub</h1>
 
 <?php
+echo "Hello World!<hr>";
 echo "Coding is fun!<br>"; 
 $hour = date("H");
 
