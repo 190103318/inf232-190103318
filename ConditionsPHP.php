@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>My first PHP code in GitHub</h1>
+<h1>Conditions in PHP</h1>
 
 <?php
 echo "Hello World!<hr>";
